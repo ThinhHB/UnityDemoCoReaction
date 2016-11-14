@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 0fec882fecc3d63428f204b457c9f970
+timeCreated: 1462027384
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: char_enemy_alienSlug_0
+    21300002: char_enemy_alienSlug_1
+    21300004: char_enemy_alienSlug_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: char_enemy_alienSlug_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2
+        width: 459
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 195.5, y: -208}
+        - {x: 205.5, y: -199}
+        - {x: 212.5, y: -171}
+        - {x: 218.5, y: -123}
+        - {x: 217.5, y: -92}
+        - {x: 215.5, y: -78}
+        - {x: 229.5, y: -52}
+        - {x: 229.5, y: -12}
+        - {x: 228.5, y: -10}
+        - {x: 213.5, y: 4}
+        - {x: 206.5, y: 56}
+        - {x: 204.5, y: 86}
+        - {x: 198.5, y: 135}
+        - {x: 192.5, y: 155}
+        - {x: 171.5, y: 188}
+        - {x: 155.5, y: 200}
+        - {x: 134.5, y: 214}
+        - {x: 108.5, y: 227}
+        - {x: 92.5, y: 232}
+        - {x: 23.5, y: 232}
+        - {x: -1.5, y: 221}
+        - {x: -28.5, y: 198}
+        - {x: -47.5, y: 170}
+        - {x: -59.5, y: 146}
+        - {x: -65.5, y: 125}
+        - {x: -65.5, y: 44}
+        - {x: -64.5, y: 24}
+        - {x: -74.5, y: -8}
+        - {x: -76.5, y: -62}
+        - {x: -84.5, y: -77}
+        - {x: -141.5, y: -121}
+        - {x: -146.5, y: -126}
+        - {x: -170.5, y: -147}
+        - {x: -192.5, y: -151}
+        - {x: -222.5, y: -166}
+        - {x: -229.5, y: -177}
+        - {x: -229.5, y: -201}
+        - {x: -218.5, y: -211}
+        - {x: -160.5, y: -209}
+        - {x: -145.5, y: -215}
+        - {x: -136.5, y: -219}
+        - {x: -103.5, y: -224}
+        - {x: -78.5, y: -224}
+        - {x: -49.5, y: -223}
+        - {x: -8.5, y: -211}
+        - {x: 11.5, y: -212}
+        - {x: 42.5, y: -230}
+        - {x: 51.5, y: -232}
+        - {x: 99.5, y: -232}
+        - {x: 119.5, y: -227}
+        - {x: 139.5, y: -217}
+        - {x: 180.5, y: -215}
+    - name: char_enemy_alienSlug_1
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 305
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 48}
+        - {x: -49.5, y: 48}
+        - {x: -49.5, y: -23}
+        - {x: -44.5, y: -48}
+        - {x: 33.5, y: -48}
+        - {x: 45.5, y: -39}
+        - {x: 49.5, y: -21}
+        - {x: 49.5, y: 27}
+    - name: char_enemy_alienSlug_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 326
+        width: 134
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 52.5}
+        - {x: -67, y: 40.5}
+        - {x: -67, y: -52.5}
+        - {x: -50, y: -52.5}
+        - {x: 67, y: -26.5}
+        - {x: 67, y: 51.5}
+        - {x: 59, y: 52.5}
+    outline: []
+  spritePackingTag: Texture
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

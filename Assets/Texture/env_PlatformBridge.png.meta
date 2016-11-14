@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 93bc14458b9788d47a5fa352e014d58e
+timeCreated: 1462027334
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: env_PlatformBridge_0
+    21300002: env_PlatformBridge_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: env_PlatformBridge_0
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 240
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: env_PlatformBridge_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 54
+        width: 801
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 267.5, y: -8.5}
+        - {x: 354.5, y: -31.5}
+        - {x: 385.5, y: -29.5}
+        - {x: 400.5, y: 8.5}
+        - {x: 400.5, y: 68.5}
+        - {x: 396.5, y: 72.5}
+        - {x: 369.5, y: 83.5}
+        - {x: 353.5, y: 86.5}
+        - {x: 342.5, y: 86.5}
+        - {x: 327.5, y: 77.5}
+        - {x: -371.5, y: 76.5}
+        - {x: -393.5, y: 80.5}
+        - {x: -400.5, y: 75.5}
+        - {x: -400.5, y: 40.5}
+        - {x: -383.5, y: 29.5}
+        - {x: -317.5, y: 18.5}
+        - {x: -272.5, y: 14.5}
+        - {x: -206.5, y: -54.5}
+        - {x: -207.5, y: -67.5}
+        - {x: -203.5, y: -85.5}
+        - {x: -196.5, y: -91.5}
+        - {x: -152.5, y: -91.5}
+        - {x: -25.5, y: -9.5}
+        - {x: 54.5, y: 11.5}
+        - {x: 251.5, y: 19.5}
+      - - {x: 371.5, y: 91.5}
+        - {x: 371.5, y: 80.5}
+        - {x: 374.5, y: 79.5}
+        - {x: 378.5, y: 79.5}
+        - {x: 380.5, y: 81.5}
+        - {x: 380.5, y: 84.5}
+        - {x: 379.5, y: 91.5}
+    outline: []
+  spritePackingTag: Texture
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
