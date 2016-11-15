@@ -1,6 +1,6 @@
-# Coreaction - a nother solution for "multi-state" in game
+# Coreaction - another solution for "multi-state" in game
 
-I've been working with some Platfomer2D game, and used StateMachine for Character control. At the begining of the project, I thought the StateMachine will just simple like this :
+I've been working with some Platfomer2D games, and I've used StateMachine for Character control. At the begining of the project, I thought the StateMachine will just simple like this :
 
 ![Alt Text](https://cloud.githubusercontent.com/assets/9117538/20307846/f03988f0-ab73-11e6-8914-3394546f0c0b.png)
 
@@ -10,11 +10,11 @@ But then, when project grew up, I got some mess like this :
 
 # The weakness of StateMachine
 
-I see that, StateMachine has some weak point
+I see that, StateMachine has some weak points
 
 **"Single thread"**
 
-There's only one State can be run at a time, and we have to do many thing in that state, and checking to transition to another state
+There's only one State can be run at a time, and we have to do many things in that state, and also checking to transition to other states
 
 **Hard to extend**
 
@@ -24,7 +24,7 @@ When I want to add another state, I have to modify the other states too, because
 # Learn from Unity's Animator component
 
 Look at Unity's Animator component, I see there're two definition : **The parameters** and **Transition conditions**
-We define some parameter, we declare the transition between States, then, we just modify the value of Parameters (via SetTrigger(), SetFloat(), SetBool() .v.v..) and the Animator will select the right State to run, base on conditions.
+We define some parameter, we declare the transition between States, then, we just modify the value of Parameters (via *SetTrigger(), SetFloat(), SetBool()* .v.v..) and the Animator will select the right State to run, base on conditions.
 
 
 # The idea about Co-reactions
@@ -127,4 +127,4 @@ void AddMoveRightReaction()
 }
 ```
 
-From then, It'll easier for me when I want to add more reaction, or more condion or parameter. My demo is very simple, here I just paste some main part of my code.
+From then, It'll easier for me when I want to add more reactions, or more condions or parameters. My demo is very simple, here I just paste some main part of my code.
