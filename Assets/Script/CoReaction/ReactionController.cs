@@ -158,12 +158,14 @@ namespace CoReaction
 			RunReactions();
 
 			// Trigger parameter need to be reset after first use,
-			// reset them here, and re-check active state for reaction again
 			if (_isAnyTriggerParameterDirty)
 			{
 				ResetAllTriggerPamameter();
-				CheckActiveStateForReactions();
 				_isAnyTriggerParameterDirty = false;
+				// dont need to re-check active state for reactions
+				// just turn on the _isAnyParameterDirty = true, the next frame
+				// it will CheckACtiveState, We dont need to cost 1 checking call here
+				_isAnyParameterDirty = true;
 			}
 		}
 
